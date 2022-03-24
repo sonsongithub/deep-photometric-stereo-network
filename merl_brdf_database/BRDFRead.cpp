@@ -18,9 +18,9 @@
 // HEREUNDER IS ON AN "AS IS" BASIS, AND MERL HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
 // UPDATES, ENHANCEMENTS OR MODIFICATIONS.
 
-#include "boost/numpy.hpp"
+#include "boost/python/numpy.hpp"
 namespace py = boost::python;
-namespace np = boost::numpy;
+namespace np = boost::python::numpy;
 ////
 
 #include "stdlib.h"
